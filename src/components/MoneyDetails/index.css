@@ -1,0 +1,64 @@
+.user-your {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.balance {
+  background-color: #ecfccb;
+}
+
+.income {
+  background-color: #cffafe;
+}
+
+.expenses {
+  background-color: #ede9fe;
+}
+
+.img-logo {
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-logo {
+    width: 75px;
+  }
+
+  .user-your {
+    margin-right: 20px;
+  }
+}
+
+.user-money {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.user-head {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #334155;
+}
+
+.user-rupees {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+@media screen and (min-width: 768px) {
+  .user-rupees {
+    font-size: 18px;
+  }
+}

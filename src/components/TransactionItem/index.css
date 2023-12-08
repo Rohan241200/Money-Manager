@@ -1,0 +1,38 @@
+.history-head-add-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  width: 100%;
+}
+
+.histroy-desc {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #7e858e;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 80px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-logo {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .histroy-desc {
+    width: 40%;
+  }
+
+  .delete-logo {
+    width: 40%;
+  }
+}

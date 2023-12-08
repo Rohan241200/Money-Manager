@@ -1,0 +1,167 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.user-card-details {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 20%;
+  padding: 25px;
+}
+
+.user-card-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #1e293b;
+}
+
+.user-card-desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #475569;
+}
+
+.user-card-bank {
+  color: #0b69ff;
+}
+
+.money-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .money-lists {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.user-details-info-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .user-details-info-card {
+    flex-direction: row;
+  }
+}
+
+.user-form-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #d7dfe9;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.history-items {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+  border-radius: 20px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-details-info-card {
+    justify-content: space-between;
+  }
+  .user-form-card {
+    width: 35%;
+  }
+
+  .history-items {
+    width: 60%;
+  }
+}
+
+.user-trans-heading {
+  color: #334155;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.label {
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 5px;
+}
+
+.user-input {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #334155;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.select-options {
+  cursor: pointer;
+  outline: none;
+}
+
+.add-btn {
+  align-self: flex-start;
+  color: #ffffff;
+  background-color: #7c3aed;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.history-head {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d7dfe9;
+  width: 100%;
+}
+
+.histroy-title-desc {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #334155;
+  padding-left: 10px;
+  padding-right: 15px;
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .histroy-title-desc {
+    width: 30%;
+  }
+}
